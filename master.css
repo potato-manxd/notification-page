@@ -1,0 +1,101 @@
+* {
+    font-family: url("static/PlusJakartaSans-Medium.ttf");
+}
+
+header h2 {
+    display: inline;
+    font-size: 16px;
+}
+
+h1 {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 14px;
+}
+
+h2 span {
+    padding: 3px 11px;
+    color: white;
+    background-color: hsl(224, 90%, 20%);
+    border-radius: 5px;
+    font-family: font-family: url("assets/fonts/static/PlusJakartaSans-Medium.ttf");
+}
+
+.h22 {
+    opacity: .7;
+    font-size: 14px;
+
+}
+
+section > div{
+    background-color: hsl(210, 60%, 98%);
+    width: 95%;
+    margin: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+section > div > img{
+    width: 40px;
+    height: 40px;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+section > div > p{
+    display: inline-block;
+    font-size: 16px;
+    width: 80%;
+    text-align: left;
+    margin-left: 10px;
+    opacity: .7;
+}
+
+section > div > p > span {
+    display: block;
+    font-size: 14px;
+    opacity: .5;
+}
+
+.msg{
+    display: block;
+    background-color: white!important;
+    border: solid black 1px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.rizky{
+    background-color: white;
+    justify-content: center;
+}
+
+section > div > p > h2{
+    font-size: 16px;
+}
+
+.t{
+    opacity: 1 !important;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.uri{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 1!important;
+    background-color: red;
+    display: inline-block;
+}
+
+section > div:hover{
+    background-color: hsl(205, 33%, 90%);
+}
